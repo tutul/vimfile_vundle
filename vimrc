@@ -166,10 +166,11 @@ augroup END
 let g:SuperTabDefaultCompletionType = "<c-n>"
 "}}}
 "}}}
-"set mac 快速鍵
+"set mac 快速鍵,內建的terminal會用到
 :map <ESC>[H <Home>
 :map <ESC>[F <End>
 :imap <ESC>[H <C-O><Home>
 :imap <ESC>[F <C-O><End>
 :cmap <ESC>[H <Home>
 :cmap <ESC>[F <End>
+
